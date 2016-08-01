@@ -1,16 +1,7 @@
 
-$(window).load(function(){
-	var h1 = $('.bg-color').height();
-	$('.bg-color .w-33').css('height', h1);
-
-
-});
-
 
 
 $(document).ready(function(){
-
-
 
 	$("a.modal-form").fancybox({
 		'hideOnContentClick': true,
@@ -22,9 +13,19 @@ $(document).ready(function(){
 		}
 	});
 
-	$('.js-type').on('click', function() {
-		$('.form-all .js-val').val( $(this).closest('.w-33').find('.head').html() );
+	var rrr = $('.js-read').html();
+
+	$(document).on('click', '.js-read', function(e) {
+		e.preventDefault();
+		if ( $('.slide.hide').css('display') == 'block' ) {
+			$(this).html(rrr);
+		} else if ($('.slide.hide').css('display') == 'none') {
+			
+			$(this).html('Скрыть');
+		}
+		$(this).closest('.person-block').find('.slide.hide').slideToggle();
 	});
+
 	$('.js-wh').on('click', function() {
 		$('.form-all .js-val').val( $(this).attr('data-val') );
 	});

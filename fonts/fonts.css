@@ -1,8 +1,11 @@
 @font-face {
   font-family: 'PFHighwaySansPro-Thin';
   src: url('PFHighwaySansPro-Thin.woff') format('woff'),
-       url('PFHighwaySansPro-Thin.ttf') format('truetype'),
-       url('PFHighwaySansPro-Thin.svg#PFHighwaySansPro-Thin') format('svg');
+  url('PFHighwaySansPro-Thin.ttf') format('truetype'),
+  url('PFHighwaySansPro-Thin.svg#PFHighwaySansPro-Thin') format('svg'),
+  url('pfhighwaysanspro-thin.eot');
+  src: url('pfhighwaysanspro-thin.woff2') format('woff2'),
+  url('pfhighwaysanspro-thin.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -11,8 +14,11 @@
 @font-face {
   font-family: 'PragmaticaWeb-Book';
   src: url('PragmaticaWeb-Book.woff') format('woff'),
-       url('PragmaticaWeb-Book.ttf') format('truetype'),
-       url('PragmaticaWeb-Book.svg#PragmaticaWeb-Book') format('svg');
+  url('PragmaticaWeb-Book.ttf') format('truetype'),
+  url('PragmaticaWeb-Book.svg#PragmaticaWeb-Book') format('svg'),
+  url('pragmatica-regular-v4.eot');
+  src: url('pragmatica-regular-v4.woff2') format('woff2'),
+  url('pragmatica-regular-v4.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }

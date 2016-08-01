@@ -4,13 +4,12 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width">
-	<title>video fp</title>
+	<title>Document</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="fonts/fonts.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="fancybox/jquery.fancybox.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<!--[if lt IE 9]>
 	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js">
 	</script><script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -21,221 +20,235 @@
 	<header>
 		<div class="black-line">
 			<div class="wrapper">
-				<ul class="nav">
-					<li><a href="#c1" class="scr">Виды ЭЦП</a></li>
+				<ul class="nav">                         
+					<li><a href="#c1" class="scr">Что включает</a></li>
 					<li><a href="#c2" class="scr">Прайс-лист</a></li>
-					<li><a href="#c3" class="scr">Схема получения</a></li>
-					<li><a href="#c4" class="scr">Контакты</a></li>
+					<li><a href="#c3" class="scr">Наши кейсы</a></li>
+					<li><a href="#c4" class="scr">Схема работ</a></li>
 				</ul>
 				<a href="index.html" class="logo"><img src="img/logo.png" alt="" width="90" height="42"></a>
 				<a href="tel:88005006439" class="phone-number">8 800 500-64-39</a>
 			</div>
 		</div>
 		<div class="wrapper">
-			<h1>Электронно-цифровая подпись для физлиц, ип, юрлиц всего за 1 час по цене на 30% меньше рыночной.</h1>
+			<h1>Профессиональное сопровождение<br>организаций в тендерном отборе от<br>бывших сотрудников ФАС</h1>
+			<h6>Узнайте, как участвовать и выигрывать гостендеры</h6>
 			<form class="form header-form" method="post" id="feedback-valid-1" action="sendmail.php">
 				<input type="text" name="name" placeholder="Имя">  
 				<input type="tel" name="phone" class="mask" placeholder="Номер телефона"><br> 
-				<input class="btn" type="submit" value="Заказать ЭЦП">
+				<input class="btn" type="submit" value="Узнать">
 			</form>
 		</div>
+	</header>
+
+	<section class="new-block" id="c1">
+		<div class="wrapper">
+			<div class="title">В чем заключается тендерное сопровождение?</div>
+			<div class="about clearfix">
+				<div class="w-33 ico-1">Получение ЭЦП</div>
+				<div class="w-33 ico-2">Аккредитация на 5<br>федеральных площадках</div>
+				<div class="w-33 ico-3">Ежедневный поиск и отбор<br>тендеров</div>
+				<div class="w-33 ico-4">Анализ тендера и оценка<br>конкурентоспособности</div>
+				<div class="w-33 ico-5">Подготовка документов и<br>участие в электронных<br>торгах</div>
+				<div class="w-33 ico-6">Сопровождение получения<br>банковской гарантии</div>
+				<div class="w-33 ico-7">Сопровождение по<br>получению СРО и<br>получение лицензий для 2 <br>части заявки</div>
+			</div>
+		</div>
+	</section>
 
 
-		<div class="video">
-			<video id="video" autoplay loop="true" autoplay poster="img/header.jpg">
-				<source src="video/mp4_version.mp4" type="video/mp4" />
-				<source src="video/ogv_version.ogv" type="type='video/ogg" />
-				<source src="video/webm_version.webm" type="type='video/webm" />
-			</video>
-    </header>
 
-    <section class="section-1" id="c1">
-     <div class="wrapper">
-      <div class="title">Какие виды ЭЦП существуют?</div>
-    </div>
-    <div class="wrapper bg-color">
-      <div class="w-33">
-       <div class="head">ЭЦП для физлиц</div>
-       <ul class="list-1">
-        <li>Квалифицированный сертификат электронной подписи (КЭП)</li>
-        <li> Лицензия на право использования СКЗИ КриптоПро CSP в составе сертификата ключа</li>
-        <li>Файл с программным обеспечением</li>
-        <li>КриптоПро CSP</li>
-        <li>Круглосуточная поддержка</li>
-      </ul>
-      <div class="abs">
-        <div class="price">От 1000 руб.</div>
-        <a href="#call" class="modal-form order js-type">Оформить</a>
-      </div>
-    </div>
-    <div class="w-33">
-     <div class="head">ЭЦП для участия в госзаказах ИП и Юрлиц</div>
-     <ul class="list-1">
-      <li>Неквалифицированный сертификат электронной подписи (НЭП)</li>
-      <li>Файл с программным обеспечением</li>
-      <li>КриптоПро CSP</li>
-      <li>Круглосуточная поддержка</li>
-    </ul>
-    <div class="abs">
-      <div class="price">От 5000 руб.</div>
-      <a href="#call" class="modal-form order js-type">Оформить</a>
-    </div>
-  </div>
-  <div class="w-33">
-   <div class="head">Квалифицированная ЭЦП<br> для ИП и Юрлиц</div>
-   <ul class="list-1">
-    <li>Квалифицированный сертификат электронной подписи (КЭП)</li>
-    <li>Файл с программным обеспечением</li>
-    <li>КриптоПро CSP</li>
-    <li>Круглосуточная поддержка</li>
-  </ul>
-  <div class="abs">
-    <div class="price">От 2000 руб.</div>
-    <a href="#call" class="modal-form order js-type">Оформить</a>
-  </div>
-</div>
-</div>
-</section>
+	<div class="section forms section-form-1">
+		<div class="wrapper">
+			<div class="title">Есть вопросы?</div>
+			<form class="form land-f justify-c" method="post" id="feedback-valid-2" action="sendmail.php">
+				<input type="text" name="name" placeholder="Имя">  
+				<input type="tel" name="phone" class="mask" placeholder="Номер телефона">
+				<input type="email" name="email" placeholder="E-mail">
+				<input class="btn" type="submit" value="Получить консультацию">
+			</form>
+			<div class="notes">Заполните специальную форму и получите бесплатную консультацию в<br>течение часа.</div>
+		</div>
+	</div>
 
-<div class="section forms section-form-1">
- <div class="wrapper">
-  <div class="title">Не можете разобраться, что вам нужно?</div>
-  <form class="form land-f justify-c" method="post" id="feedback-valid-2" action="sendmail.php">
-   <input type="text" name="name" placeholder="Имя">  
-   <input type="tel" name="phone" class="mask" placeholder="Номер телефона">
-   <input type="email" name="email" placeholder="E-mail">
-   <input class="btn" type="submit" value="Получить консультацию">
- </form>
- <div class="notes">Заполните специалбную форму, чтобы получить бесплатную <br>консультацию.</div>
-</div>
-</div>
+	<section class="section-2" id="c2">
+		<div class="wrapper">
+			<div class="title">Сколько обычно стоит тендерное сопровождение?</div>
+			<table class="table">
+				<tr>
+					<td>&nbsp;</td>
+					<td class="stl-1 edit">У нас</td>
+					<td class="stl-2">У других</td>
+				</tr>
+				<tr>
+					<td class="stl-0">Основной пакет сопровождения “Форс Плас”</td>
+					<td class="stl-1">14900</td>
+					<td class="stl-2">-</td>
+				</tr>
+				<tr>
+					<td class="stl-0">Выпуск ЭЦП для участия в закупках по 44-ФЗ</td>
+					<td class="stl-1">0</td>
+					<td class="stl-2">от 5000</td>
+				</tr>
+				<tr>
+					<td class="stl-0">Аккредитация на 5 федеральных площадках</td>
+					<td class="stl-1">0</td>
+					<td class="stl-2">от 1000</td>
+				</tr>
+				<tr>
+					<td class="stl-0">Юридическое консультирование</td>
+					<td class="stl-1">0</td>
+					<td class="stl-2">от 5000</td>
+				</tr>
+				<tr>
+					<td class="stl-0">Анализ тендера и оценка конкурентоспособности</td>
+					<td class="stl-1">0</td>
+					<td class="stl-2">от 5000</td>
+				</tr>
+				<tr>
+					<td class="stl-0">Подготовка документов и участие в государственных и коммерческих аукционах</td>
+					<td class="stl-1">0</td>
+					<td class="stl-2">от 5000</td>
+				</tr>
+				<tr>
+					<td class="stl-0">Обеспечение банковской гарантии</td>
+					<td class="stl-1">0</td>
+					<td class="stl-2">от 1000</td>
+				</tr>
+				<tr>
+					<td class="stl-0">Сопровождение по вступлению в СРО и получения лизенции для 2 части сделки</td>
+					<td class="stl-1">0</td>
+					<td class="stl-2">от 1000</td>
+				</tr>
+				<tr>
+					<td rowspan="2" class="result">Итого</td>
+					<td class="stl-1"><span class="price-2">14900</span></td>
+					<td class="stl-2"><span class="price-2">от 25500</span></td>
+				</tr>
+				<tr>
+					<td class="stl-1"><a href="#call" data-val="14900" class="modal-form choose js-wh">Выбрать</a></td>
+					<td class="stl-2"><!-- <a href="#call" data-val="25500" class="modal-form choose js-wh">Выбрать</a> --></td>
+				</tr>
+			</table>
+		</div>
+	</section>
 
-<section class="section-2" id="c2">
- <div class="wrapper">
-  <div class="title">Почему стоит заказать у нас?</div>
-  <table class="table">
-   <tr>
-    <td>&nbsp;</td>
-    <td class="stl-1 edit">У нас</td>
-    <td class="stl-2">У других</td>
-  </tr>
-  <tr>
-    <td class="stl-0">Стоимость ЭЦП для участия <br>в госзаказах</td>
-    <td class="stl-1">6900</td>
-    <td class="stl-2">От 5000</td>
-  </tr>
-  <tr>
-    <td class="stl-0">Консультация по <br>аккредитации</td>
-    <td class="stl-1">0</td>
-    <td class="stl-2">От 1000</td>
-  </tr>
-  <tr>
-    <td class="stl-0">Прохождение аккредитации</td>
-    <td class="stl-1">0</td>
-    <td class="stl-2">От 1000</td>
-  </tr>
-  <tr>
-    <td class="stl-0">Срочный выпуск за 1 час</td>
-    <td class="stl-1">0</td>
-    <td class="stl-2">От 3000</td>
-  </tr>
-  <tr>
-    <td rowspan="2" class="result">Итого</td>
-    <td class="stl-1"><span class="price-2">6990</span></td>
-    <td class="stl-2"><span class="price-2">От 10000</span></td>
-  </tr>
-  <tr>
-    <td class="stl-1"><a href="#call" data-val="6990" class="modal-form choose js-wh">Выбрать</a></td>
-    <td class="stl-2"><!-- <a href="#call" data-val="10000" class="modal-form choose js-wh">Выбрать</a> --></td>
-  </tr>
-</table>
-</div>
-</section>
+	<section class="section-comment" id="c3">
+		<div class="wrapper">
+			<div class="title">Пример одного из наших клиентов</div>
+			<div class="person-block">
+				<img src="img/comment.png" alt="" width="100" height="100">
+				<div class="name-s">Саарян Борис <span>Генеральный директор</span></div>
+				<a href="mailto:b@saaryan.ru" class="mail-link">b@saaryan.ru</a>
+				<div class="quote">
+					<p class="slide">
+						<b>Что было:</b> Строительной деятельностью я занимаюсь больше 15 лет. С 2011–2014 годы моя организация выполняла работы по субподряду. Начиная с 2015 года, мы решили попробовать себя в закупках. Первое время было очень сложно сориентироваться, но после приобретения СРО на нашу корпоративную электронную почту пришло куча предложений от тендерных организаций. Мы выбрали одну из них, оплатили выпуск ЭЦП, далее — аккредитацию. Нам предложили пакет, который предполагал комплексное сопровождение наших закупок. Стоимость к тому времени составляла около 120 000 руб. в год, — относительно недорогое сопровождение, но после нам сообщили, что победы на аукционах также должны вознаграждаться, а именно — 1–3 % от цены контракта. Такое предложение казалось нам необходимым, так как без них, без данной организации, мы бы вряд ли бы смогли что-то самостоятельно сделать, а содержать своего собственного тендерного специалиста, как ни крути, получается дорого. Первое время были чувства неуверенности ведь мы не понимали сколько придется выкладывать еще за сопровождение помимо денег, которые мы заплатили за целый год. Со временем эти чувства обострились, с нас начали сдирать деньги за все что только можно: после побед требовали выплаты 3 % от цены контракта и оплаты дополнительных услуг за сопровождение в получении банковской гарантии. И во время мелких закупок мы просто оставались ни с чем.
+					</p>
+					<p class="slide hide">
+						<b>Что было сделано:</b> Спустя год мы приняли решени, что с данной тендерной организацией сотрудничать нам вовсе не выгодно. В поисках новых организаций мы наткнулись на «Форс Плас». Их предложение нам показалось достойным внимания: специалисты компании показались экспертами, а главным плюсом было то, что они не потребовали вознаграждения за победу в закупках. После приобретения пакета в рамках оплаченного пакета нам выпустили ЭЦП. Затем пециалисты «Форс Плас» тщательно отобрали нам закупки, провели анализ и выявляли коррумпированные тендеры. Подготовкой и подачей заявки занимались полностью они, от нас требовались лишь документы организации. После побед на аукционах ребята сопровождали получение банковской гарантии, мы оплачивали лишь комиссию банку. <br><br>
+						<b>Результат:</b> С новой тендерной организацией к нам пришла уверенность: мы платили фиксированную цену, при этом подаем неограниченное количество заявок, получаем точный анализ закупок и все то, что требуется для благополучного участия в торгах. После выбора «Форс Плас» мы точно решили вопрос насчет тендерного специалиста в нашей организации - с такими ценами и возможностями мы получаем очень высокие результаты. Если раньше мы отдавали кучу денег, и всегда разную сумму, то сейчас мы платим фиксированную цену, получая отличный результат. Только недавно, благодаря поддержке «Форс Плас» мы сумели одержать победу в аукционе на сумму более 40 млн. руб.
+					</p>
+				</div>
+				<a href="#" class="mail-link js-read">читать полностью</a>
+			</div>
+		</div>
+	</section>
 
-<section class="section-3" id="c3">
- <div class="wrapper">
-  <div class="title">Схема получения ЭЦП</div>
-  <div class="scheme clearfix">
-   <div class="w-25">
-    <div class="icon-c ic-1"></div>
-    <div class="step">Шаг 1<span>Консультация по телефону</span></div>
-    <a href="#call" data-val="Схема" class="modal-form order-1 js-wh">Заказать</a>
-  </div>
-  <div class="w-25">
-    <div class="icon-c ic-2"></div>
-    <div class="step">Шаг 2<span>Вы присылаете необходимые документы</span></div>
-  </div>
-  <div class="w-25">
-    <div class="icon-c ic-3"></div>
-    <div class="step">Шаг 3<span>Генерируется сертификат</span></div>
-  </div>
-  <div class="w-25">
-    <div class="icon-c ic-4"></div>
-    <div class="step">Шаг 4<span>Передача ЭЦП по защищенному узлу или передача на электронном носителе курьеру</span></div>
-  </div>
-</div>
-</div>
-</section>
+	<section class="section-3" id="c4">
+		<div class="wrapper">
+			<div class="title">Схема работ участия в тендере вместе с нами</div>
+			<div class="scheme clearfix">
+				<div class="w-25">
+					<div class="icon-c ic-1"></div>
+					<div class="step">Шаг 1<span>Выпуск ЭЦП и прохождение аккредитации на торговых площадках</span></div>
+					<a href="#call" data-val="Схема" class="modal-form order-1 js-wh">Заказать</a>
+				</div>
+				<div class="w-25">
+					<div class="icon-c ic-2"></div>
+					<div class="step">Шаг 2<span>Подбор и анализ тендеров на более, чем 5000 государственных и коммерческих площадках.</span></div>
+				</div>
+				<div class="w-25">
+					<div class="icon-c ic-3"></div>
+					<div class="step">Шаг 3<span>Анализ документации, заказчиков и конкурентов.</span></div>
+				</div>
+				<div class="w-25">
+					<div class="icon-c ic-4"></div>
+					<div class="step">Шаг 4<span>Подготовка и подача заявок на участие в аукционе.</span></div>
+				</div>
 
-<div class="section forms section-form-2">
- <div class="wrapper">
-  <div class="title">Все еще ищите лучшее предложение?</div>
-  <form class="form land-f justify-c" method="post" id="feedback-valid-3" action="sendmail.php">
-   <input type="text" name="name" placeholder="Имя">  
-   <input type="tel" name="phone" class="mask" placeholder="Номер телефона">
-   <input type="email" name="email" placeholder="E-mail">
-   <input class="btn" type="submit" value="Получить консультацию">
- </form>
- <div class="notes">Заполните специальную форму, чтобы получить ЭЦП по цене на 30% <br>ниже рыночной.</div>
-</div>
-</div>
+				<div class="w-25">
+					<div class="icon-c ic-5"></div>
+					<div class="step">Шаг 5<span>Ожидание допуска заявок, проведение торгов, внесение обеспечения и подписание контракта.</span></div>
+				</div>
 
-<div class="map" id="c4">
- <div id="map-canvas"></div>
- <div class="wrapper">
-  <div class="contact-block">
-   <ul class="address">
-    <li class="i-1">129164, город Москва, Ярославская улица, дом 8, корпус 4</li>
-    <li class="i-2">8 800 500-64-39</li>
-    <li class="i-3"><a href="mailto:info@forceplus.ru">info@forceplus.ru</a></li>
-  </ul>
-</div>
-</div>
-</div>
+				<div class="w-25">
+					<div class="icon-c ic-6"></div>
+					<div class="step">Шаг 6<span>Получение аванса, сдача-приемка работ, оплата.</span></div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-<footer class="black-line">
- <div class="wrapper">
-  <ul class="nav">
-   <li><a href="#c1" class="scr">Виды ЭЦП</a></li>
-   <li><a href="#c2" class="scr">Прайс-лист</a></li>
-   <li><a href="#c3" class="scr">Схема получения</a></li>
-   <li><a href="#c4" class="scr">Контакты</a></li>
- </ul>
- <a href="index.html" class="logo"><img src="img/logo.png" alt="" width="90" height="42"></a>
- <a href="#call" class="modal-form phone-number btn-1">Оставить заявку</a>
-</div>
-</footer>
+	<div class="section forms section-form-2">
+		<div class="wrapper">
+			<div class="title">Все еще думаете?</div>
+			<form class="form land-f justify-c" method="post" id="feedback-valid-3" action="sendmail.php">
+				<input type="text" name="name" placeholder="Имя">  
+				<input type="tel" name="phone" class="mask" placeholder="Номер телефона">
+				<input type="email" name="email" placeholder="E-mail">
+				<input class="btn" type="submit" value="Получить консультацию">
+			</form>
+			<div class="notes">Заполните специальную форму прямо сейчас, и получите сопровождение<br>участия в тендерах от бывших сотрудников ФАС</div>
+		</div>
+	</div>
 
-<div id="call" class="form-all hide">
- <img src="img/fthx.jpg" alt="" class="l-b" width="460" height="560">
- <form class="form land-f" method="post" id="feedback-valid-4" action="sendmail.php">
-  <div class="n-form">Оставьте заявку <span>Заполните специальную форму, и мы<br>свяжемся с вами в ближайшее время.</span></div>
-  <input type="text" name="name" placeholder="Имя">  
-  <input type="tel" name="phone" class="mask" placeholder="Номер телефона">
-  <input type="email" name="email" placeholder="E-mail">
-  <input type="hidden" value="" class="js-val" name="inp">
-  <input class="btn" type="submit" value="Оставить заявку">
-</form>
-</div>
+	<div class="map">
+		<div id="map-canvas"></div>
+		<div class="wrapper">
+			<div class="contact-block">
+				<ul class="address">
+					<li class="i-1">129164, город Москва, Ярославская улица, дом 8, корпус 4</li>
+					<li class="i-2">8 800 500-64-39</li>
+					<li class="i-3"><a href="mailto:info@forceplus.ru">info@forceplus.ru</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<footer class="black-line">
+		<div class="wrapper">
+			<ul class="nav">              
+				<li><a href="#c1" class="scr">Что включает</a></li>
+				<li><a href="#c2" class="scr">Прайс-лист</a></li>
+				<li><a href="#c3" class="scr">Наши кейсы</a></li>
+				<li><a href="#c4" class="scr">Схема работ</a></li>
+			</ul>
+			<a href="index.html" class="logo"><img src="img/logo.png" alt="" width="90" height="42"></a>
+			<a href="#call" class="modal-form phone-number btn-1">Оставить заявку</a>
+		</div>
+	</footer>
+
+	<div id="call" class="form-all hide">
+		<img src="img/fthx.jpg" alt="" class="l-b" width="460" height="560">
+		<form class="form land-f" method="post" id="feedback-valid-4" action="sendmail.php">
+			<div class="n-form">Оставьте заявку <span>Заполните специальную форму, и мы<br>свяжемся с вами в ближайшее время.</span></div>
+			<input type="text" name="name" placeholder="Имя">  
+			<input type="tel" name="phone" class="mask" placeholder="Номер телефона">
+			<input type="email" name="email" placeholder="E-mail">
+			<input type="hidden" value="" class="js-val" name="inp">
+			<input class="btn" type="submit" value="Оставить заявку">
+		</form>
+	</div>
 
 
-<script src="fancybox/jquery.fancybox.pack.js"></script>
-<script src="js/check_ajax.js"></script>       
-<script src="js/jquery.maskedinput.js"></script>   
-<script src="js/jquery.form.js"></script>       
-<script src="js/jquery.validate.js"></script>     
-<script src="js/main.js"></script>
-<script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
-<script src="js/yandex.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="fancybox/jquery.fancybox.pack.js"></script>
+	<script src="js/check_ajax.js"></script>       
+	<script src="js/jquery.maskedinput.js"></script>   
+	<script src="js/jquery.form.js"></script>       
+	<script src="js/jquery.validate.js"></script>     
+	<script src="js/main.js"></script>
+	<script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
+	<script src="js/yandex.js"></script>
 </body>
 </html>
