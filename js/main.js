@@ -3,14 +3,9 @@ $(window).load(function(){
 	var h1 = $('.bg-color').height();
 	$('.bg-color .w-33').css('height', h1);
 
-
 });
 
-
-
 $(document).ready(function(){
-
-
 
 	$("a.modal-form").fancybox({
 		'hideOnContentClick': true,
