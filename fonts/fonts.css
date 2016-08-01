@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'PFHighwaySansPro-Thin';
+  src: url('PFHighwaySansPro-Thin.woff') format('woff'),
+       url('PFHighwaySansPro-Thin.ttf') format('truetype'),
+       url('PFHighwaySansPro-Thin.svg#PFHighwaySansPro-Thin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'PragmaticaWeb-Book';
+  src: url('PragmaticaWeb-Book.woff') format('woff'),
+       url('PragmaticaWeb-Book.ttf') format('truetype'),
+       url('PragmaticaWeb-Book.svg#PragmaticaWeb-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
