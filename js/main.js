@@ -7,6 +7,29 @@ $(window).load(function(){
 
 $(document).ready(function(){
 
+
+$(document).on('click','.js-inp', function() {
+
+
+
+var oldValue = $('#rezultat').html();
+var thv = $(this).prev().val();
+
+console.log(thv);
+	console.log(oldValue);
+
+if ( !$(this).hasClass('act') ) {
+	$('#rezultat').html(+oldValue + +thv);
+	$(this).addClass('act');
+} else {
+	$('#rezultat').html(+oldValue - +thv);
+	$(this).removeClass('act');
+}
+
+});
+
+
+
 	$("a.modal-form").fancybox({
 		'hideOnContentClick': true,
 		minWidth : 230,
